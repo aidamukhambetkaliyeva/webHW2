@@ -1,0 +1,85 @@
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links{
+    display:flex;
+    gap:20px;
+}
+.card-row{
+    display:flex;
+    gap: 20px;
+}
+.card{
+    flex: 1;
+    transition: 0.2s;
+}
+.card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+.page{
+    display:grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas: 
+    "header header"
+    "sidebar main"
+    "footer footer";
+}
+.header{
+    grid-area: header;
+}
+.sidebar{
+    grid-area: sidebar;
+}
+.main{
+    grid-area: main;
+}
+.footer{
+    grid-area: footer;
+}
+.header, .sidebar, .main, .footer {
+    border: 1px solid red;
+}
+.gallery img {
+    width: 20%;
+    transition: transform 0.2s;
+}
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px;
+}
+.gallery img:hover{
+    transform: scale(1.05)
+}
+.p-header{
+    display:grid;
+    justify-content: space-between;
+    align-items: center;
+}
+.portfolio{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas: 
+    "p-header p-header"
+    "p-sidebar p-main"
+    "p-footer p-footer";
+}
+.p-header{
+    grid-area: p-header;
+}
+.p-sidebar{
+    grid-area: p-sidebar;
+}
+.p-main{
+    grid-area: p-main;
+}
+.p-footer{
+    grid-area: p-footer;
+}
+.p-header, .p-main, .p-sidebar, .p-footer {
+    border: 1px solid red;
+}
