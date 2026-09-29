@@ -44,6 +44,4 @@ Combined Flexbox (header navigation, project card content) and CSS Grid (main la
 <img width="1919" height="1078" alt="Снимок экрана 2026-09-27 024333" src="https://github.com/user-attachments/assets/c9221f89-09e6-4e47-9653-591250b9b332" />
 
 
-## Summary
 
-[Напиши здесь 2-4 предложения: что делала, что было сложно, как разбиралась с ошибками]
